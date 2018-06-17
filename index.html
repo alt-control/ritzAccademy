@@ -305,12 +305,19 @@
 					<div class="col-md-6">
 						<div class="contact-form">
 							<h4>Send A Message</h4>
-							<form id="contact-form" method="post" action="contact.php" role="form">
-								<input id="form_name" type="text" name="name" class="input" placeholder="Your Name *" required="required">
-								<input id="form_email" type="email" name="email" class="input" placeholder="Your email *" required="required">
+							<!-- <form id="contact-form" method="post" action="contact.php" role="form">
+								<input id="form_name" type="text" name="name" >
+								<input id="form_email" type="email" >
 								<input id="form_phone" type="tel" name="phone" class="input" placeholder="Your phone" required="required">
 								<textarea id="form_message" name="message" class="input" placeholder="Message to us *" rows="4" required="required"></textarea>
 								<input type="submit" class="main-button icon-button pull-right" value="Send Message"/>
+							</form> -->
+							<form action="https://formspree.io/jithinjosephmp@gmail.com" method="POST">
+    						<input type="text" name="name" class="input" placeholder="Your Name *" required="required">
+    						<input type="email" name="email" class="input" placeholder="Your email *" required="required">
+								<input type="tel" name="phone" class="input" placeholder="Your phone" required="required">
+								<textarea name="message" class="input" placeholder="Message to us *" rows="4" required="required"></textarea>
+    						<input type="submit" class="main-button icon-button pull-right" value="Send Message">
 							</form>
 						</div>
 					</div>
