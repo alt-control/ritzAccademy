@@ -305,11 +305,12 @@
 					<div class="col-md-6">
 						<div class="contact-form">
 							<h4>Send A Message</h4>
-							<form>
-								<input class="input" type="text" name="name" placeholder="Name">
-								<input class="input" type="email" name="email" placeholder="Email">
-								<textarea class="input" name="message" placeholder="Enter your Message"></textarea>
-								<button class="main-button icon-button pull-right">Send Message</button>
+							<form id="contact-form" method="post" action="contact.php" role="form">
+								<input id="form_name" type="text" name="name" class="input" placeholder="Your Name *" required="required">
+								<input id="form_email" type="email" name="email" class="input" placeholder="Your email *" required="required">
+								<input id="form_phone" type="tel" name="phone" class="input" placeholder="Your phone" required="required">
+								<textarea id="form_message" name="message" class="input" placeholder="Message to us *" rows="4" required="required"></textarea>
+								<input type="submit" class="main-button icon-button pull-right" value="Send Message"/>
 							</form>
 						</div>
 					</div>
@@ -319,7 +320,7 @@
 					<div class="col-md-5 col-md-offset-1">
 						<h4>Contact Information</h4>
 						<ul class="contact-details">
-							<li><i class="fa fa-envelope"></i>ritty.ac@gmail.com</li>
+							<li><i class="fa fa-envelope"></i><a href="mailto:ritty.ac@gmail.com" class="no-style">ritty.ac@gmail.com</a></li>
 							<li><i class="fa fa-phone"></i>940077811</li>
 							<li><i class="fa fa-map-marker"></i>Kadayanickadu,Manimala-CHRY/KTM Road</li>
 						</ul>
