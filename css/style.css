@@ -1193,8 +1193,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
   height: 100%;
   border-radius: 4px;
   color: #fff;
-  background: url(https://maps.googleapis.com/maps/api/staticmap?center=Kadayanickadu&zoom=16&scale=1&size=640x360&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CKadayanickadu
-) no-repeat center center scroll;
+  background: url(../img/staticmap.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
